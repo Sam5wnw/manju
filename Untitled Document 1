@@ -1,0 +1,26 @@
+packagr java.22.scheme;
+pulbic class outer{
+	public class inner {
+			public void display(){
+					
+					
+				}
+			}
+		void display(){
+			system.out.println("Outer display");
+			}
+		}
+package java.22.scheme;
+public class inner{
+	void display(){
+		system.out.println("inner display");
+		}					
+	}
+package java.22.scheme;
+public class main(){
+public static void(string args[]){
+outer outerobject = new outer();
+outerobject.display();
+outer.inner innerobecjt = outerobject new inner();
+innerobject.display();
+}}		
